@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokemon Generator</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="pokeStyle.css">
+        <style>
+            body {
+                background-image: url("img/pokeball.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body class="container justify-content-center text-center">
+        <h1 style="text-align: center; color: white">Gotta Catch 'Em All</h1>
+
+        <div class="flex-parent" style="display: flex">
+            <button type="submit" style="margin-left: auto; margin-right: auto" id="btn" class="btn-dark">I Choose You!</button>
+        </div>
+
+        <div id="pokemon-container" class="d-flex flex-wrap justify-content-around text-center"></div>
+
+    </body>
+
+    <script src="jquery/jquery-2.2.4.js"></script>
+    <script src="app.js"></script>
+
+</html>
